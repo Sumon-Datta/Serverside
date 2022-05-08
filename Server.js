@@ -117,9 +117,6 @@ app.get("/", (reg, res) => {
   res.send("Running server node js");
 });
 
-app.get("/sumon", (reg, res) => {
-  res.send("Sumon has good human being");
-});
 
 app.listen(port, () => {
   console.log("CRUD server is running");
